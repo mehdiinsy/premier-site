@@ -1,0 +1,88 @@
+#main {
+    width: 1440px;
+    height: 1250px;
+    background-color: cadetblue;
+    margin: 0 auto;
+}
+header {
+    background-color: beige;
+    height: 200px;
+    width: 1440px;
+}
+#boutons {
+    border: 1px solid;
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center ;
+}
+#accueil, #lieu, #date, #contact, #histoire {
+    width: 288px;
+}
+nav{
+    background-color: brown;
+}
+#logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+#logo img{
+    position: absolute;
+    /* font-size: 2em; */
+    width: 9em;
+}
+#pink{
+    background-color: pink;
+    height: 100px;
+}
+article {
+    background-color: beige;
+    height: 500px;
+    width: 1440px;
+}
+#vide1 {
+    background-color: darkseagreen;
+    width: 480px;
+    height: 500px;
+    float: right;
+}
+#text{
+    background-color: beige;
+    width: 960px;
+    height: 500px;
+
+}
+#di {
+    background-color: gold;
+    height: 200px;
+}
+footer{
+    background-color: darkseagreen;
+}
+#vide2{
+    background-color: darkturquoise;
+    width: 50%;
+    height: 200px;
+    float: right;
+}
+#vide3 {
+    background-color: azure;
+    height: 200px;
+    width: 50%;
+}
+#vide4 {
+    background-color: blueviolet;
+    height: 200px;
+    width: 50%;
+    float: right;
+}
+#vide5 {
+    background-color: cadetblue;
+    width: 50%;
+    height: 200px;
+}
